@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        /*去除百度地图版权*/
+        .anchorBL {
+            display: none;
+        }
+    </style>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <link rel="icon" href="<%= BASE_URL %>favicon.ico">
+   
+    <!-- <script type="text/javascript" src="https://api.map.baidu.com/api?v=2.0&ak=PL4wfqVofjrMVz7FMaPs8Dts" charset="utf-8"></script>  -->
+    <script>
+
+
+    // var protocolStr = document.location.protocol;
+    // if(protocolStr == "http:")
+    //         {
+    //         console.log("内网 = " + protocolStr);
+    //         var bmapcfg={
+    //             'home':'http://22.47.111.212:8081/map/',
+    //             'imgext':'.png',
+    //             'tiles_dir':'',
+    //             'tiles_hybrid':'',
+    //             'tiles_self':''
+    //         }
+    //         var jsList= ['map','newvectordrawlib_wbnuee','map_dbwcej','scommon_oadc3d','mapclick_e40viw','oppc_10riq5','vectordrawlib_4pdipq','style_fkofpc'
+    // ,'tile_ok3b3m','navictrl_h32mnb','canvablepath_dia5aw','control_hlzh1t','common_wkrfcz','marker_00uyqy','symbol_cq3a5n','drawbycanvas_ufwkvb','copyrightctrl_gmc2ps'
+    // ,'drawbysvg_vxyn51','poly_r52vuo','drawbyvml_whxmqq','draw_jb4osz'
+    // ];
+    //         for(let i in jsList){
+    //             let script = document.createElement('script')
+    //             script.type = 'text/javascript';
+    //             var loadUrl='';
+    //             if(window.location.host.indexOf('localhost') <0){
+    //                 loadUrl='http://22.47.111.212:8081'
+    //             }else{
+    //                 loadUrl=window.location.host
+    //             }
+    //             var  urlPath='/map/modules/';
+    //             if(jsList[i]=='map'){
+    //                 urlPath='/map/'
+    //             }
+    //             script.src =loadUrl+ urlPath +jsList[i]+'.js';
+    //             document.getElementsByTagName('head')[0].appendChild(script)
+    //           }
+    //         }
+    //         else 
+    //         {
+    //             let script = document.createElement('script')
+    //             script.type = 'text/javascript';
+    //             script.src ='https://api.map.baidu.com/getscript?v=2.0&ak=PL4wfqVofjrMVz7FMaPs8Dts&services=&t=20200327103013';
+    //             document.getElementsByTagName('head')[0].appendChild(script)
+
+    //         }
+    // </script>
+   
+
+
+
+    <!-- <script type="text/javascript" src="http://192.168.1.16:8081/map/map.js" charset="utf-8"></script> -->
+    <!-- <script type="text/javascript" src="http://192.168.1.16:8081/map/modules/newvectordrawlib_wbnuee.js" charset="utf-8"></script>
+    <script type="text/javascript" src="http://192.168.1.16:8081/map/modules/map_dbwcej.js" charset="utf-8"></script>
+    <script type="text/javascript" src="http://192.168.1.16:8081/map/modules/scommon_oadc3d.js" charset="utf-8"></script>
+    <script type="text/javascript" src="http://192.168.1.16:8081/map/modules/mapclick_e40viw.js" charset="utf-8"></script>
+    <script type="text/javascript" src="http://192.168.1.16:8081/map/modules/oppc_10riq5.js" charset="utf-8"></script>
+    <script type="text/javascript" src="http://192.168.1.16:8081/map/modules/vectordrawlib_4pdipq.js" charset="utf-8"></script>
+    <script type="text/javascript" src="http://192.168.1.16:8081/map/modules/style_fkofpc.js" charset="utf-8"></script>
+    <script type="text/javascript" src="http://192.168.1.16:8081/map/modules/tile_ok3b3m.js" charset="utf-8"></script>
+    <script type="text/javascript" src="http://192.168.1.16:8081/map/modules/navictrl_h32mnb.js" charset="utf-8"></script>
+    <script type="text/javascript" src="http://192.168.1.16:8081/map/modules/canvablepath_dia5aw.js" charset="utf-8"></script>
+    <script type="text/javascript" src="http://192.168.1.16:8081/map/modules/control_hlzh1t.js" charset="utf-8"></script>
+    <script type="text/javascript" src="http://192.168.1.16:8081/map/modules/common_wkrfcz.js" charset="utf-8"></script>
+    <script type="text/javascript" src="http://192.168.1.16:8081/map/modules/marker_00uyqy.js" charset="utf-8"></script>
+    <script type="text/javascript" src="http://192.168.1.16:8081/map/modules/symbol_cq3a5n.js" charset="utf-8"></script>
+    <script type="text/javascript" src="http://192.168.1.16:8081/map/modules/drawbycanvas_ufwkvb.js" charset="utf-8"></script>
+    <script type="text/javascript" src="http://192.168.1.16:8081/map/modules/copyrightctrl_gmc2ps.js" charset="utf-8"></script>
+    <script type="text/javascript" src="http://192.168.1.16:8081/map/modules/drawbysvg_vxyn51.js" charset="utf-8"></script>
+    <script type="text/javascript" src="http://192.168.1.16:8081/map/modules/poly_r52vuo.js" charset="utf-8"></script>
+    <script type="text/javascript" src="http://192.168.1.16:8081/map/modules/drawbyvml_whxmqq.js" charset="utf-8"></script>
+    <script type="text/javascript" src="http://192.168.1.16:8081/map/modules/draw_jb4osz.js" charset="utf-8"></script> -->
+  
+    <!--  -->
+    <!-- <script type="text/javascript" src="map/map_load.js" charset="utf-8"></script> -->
+    <!-- <script type="text/javascript" src="http://192.168.1.16:8081/map/map_load.js" charset="utf-8"></script> -->
+    <!-- <script type="text/javascript" src="//api.map.baidu.com/library/Heatmap/2.0/src/Heatmap_min.js"></script> -->
+    <!-- <script type="text/javascript" src="https://mapv.baidu.com/build/mapv.min.js" ></script> -->
+    <!-- <script type="text/javascript" src="https://mapv.baidu.com/build/mapv.js" ></script> -->
+    <!-- <script type="text/javascript"
+        src="https://api.map.baidu.com/library/DrawingManager/1.4/src/DrawingManager_min.js">
+    </script> -->
+    <title>
+        <%= webpackConfig.name %>
+    </title>
+</head>
+
+<body>
+    <div id="app"></div>
+    <!-- built files will be auto injected -->
+</body>
+
+</html>

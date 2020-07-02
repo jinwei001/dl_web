@@ -1,0 +1,113 @@
+/***更改台账统计中的select框***/
+
+.tztj-select {
+  display: flex;
+  justify-content: center;
+
+  .el-form-item {
+    width: 27%;
+
+    .el-form-item__content {
+      width: 60%;
+
+      .el-select {
+        width: 100%;
+
+        .el-input.el-input--suffix {
+          width: 100% !important;
+        }
+      }
+    }
+  }
+}
+
+.el-button--mini {
+  padding: 7px 7px;
+}
+
+.Form-input {
+  .UserSearchFun-mini {
+    height: 40px;
+  }
+}
+
+.btn-center {
+  height: 45px;
+
+  .el-form {
+    .el-form-item__content {
+      display: flex;
+      justify-content: center;
+      margin-bottom: 1rem;
+    }
+  }
+}
+
+.Icon_r {
+  color: #ff0000;
+  opacity: 1;
+}
+
+.Form-title-xs {
+  width: 100%;
+  height: 45px;
+  line-height: 45px;
+  font-size: 1.2rem;
+  font-weight: 550;
+  text-align: center;
+}
+
+.xs-hastitle {
+  .el-dialog.el-dialog--center {
+    width: 60%;
+
+    .Form-input {
+      .form-label {
+        width: 50%;
+      }
+
+      .el-date-editor.el-input.el-input--prefix.el-input--suffix.el-date-editor--month {
+        width: 100%;
+      }
+
+      .el-date-editor.el-input.el-input--prefix.el-input--suffix.el-date-editor--datetime {
+        width: 100%;
+      }
+    }
+  }
+}
+
+.sc-sort-Dialog {
+  .el-dialog.el-dialog--center {
+    width: 25%;
+  }
+
+  .el-dialog__body {
+    padding: 25px 25px 0 25px;
+  }
+
+  .Form-input {
+    width: 100%;
+
+    .form-long-item {
+      height: 100%;
+
+      .form-label {
+        width: 24%;
+      }
+      .el-select{
+        width: 66%;
+      }
+      .el-upload-list.el-upload-list--text {
+        width: 20rem;
+        // max-width: ;
+
+        li {
+          white-space: nowrap;
+          text-overflow: ellipsis;
+          overflow: hidden;
+        }
+      }
+    }
+  }
+}

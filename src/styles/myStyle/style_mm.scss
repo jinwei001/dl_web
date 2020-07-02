@@ -1,0 +1,15 @@
+$borderPadding:20px;
+.mainContainer{
+    display: flex;
+    justify-content:space-between;
+    flex-direction: column;
+}
+.formBtn{
+    float: right;
+}
+
+.searchForm{
+    padding: $borderPadding
+}
+
+
